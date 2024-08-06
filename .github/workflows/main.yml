@@ -17,7 +17,7 @@ env:
   # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
   # github.repository as rjones18/cobalapp
-  IMAGE_NAME: cobolamazonlinux
+  IMAGE_NAME: ${{ github.repository }}/amazon-linux-cobol-app
 
 
 jobs:
